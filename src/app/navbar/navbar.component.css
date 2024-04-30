@@ -1,0 +1,144 @@
+
+*{
+  font-family: graphik, helvetica, sans-serif;
+}
+
+.navbar_container{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 15vh;
+}
+
+.logo{
+  padding: 8px 16px;
+    margin: 0px 8px;
+}
+
+.search_container{
+  border: 1px solid;
+  border-color: light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+  border-radius: 50px;
+  padding: 10px;
+  width: 50%;
+}
+
+textarea:focus, input:focus{
+  outline: none;
+}
+.search_container input{
+  padding-left: 20px;
+  font-weight: 200;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.15px;
+  color: rgb(51, 51, 51);
+  border: none;
+  width: 100%;
+}
+
+
+
+
+
+
+.dropbtn {
+  color: rgb(51, 51, 51);
+  padding: 16px;
+  font-size: 14px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  font-size: 14px;
+  min-width: 160px;
+  /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+  border: 1px solid #DFE0E1;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: rgb(51, 51, 51);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* .dropdown-content a:hover {background-color: #ddd;} */
+
+.dropdown:hover .dropdown-content {display: block;}
+
+/* .dropdown:hover .dropbtn {background-color: #3e8e41;} */
+
+
+
+
+
+
+
+
+
+.vertical_line{
+  height: 24px;
+    margin: 0px 15px;
+    width: 1px;
+    background: rgb(117, 117, 117);
+    flex-shrink: 0;
+}
+
+.menu{
+  width: 30%;
+}
+.menu-items{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.menu-items li{
+  padding-right: 15px;
+  list-style: none;
+}
+
+.menu-items li a{
+  text-decoration: none;
+  color: rgb(51, 51, 51);
+  font-weight: 200;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.15px;
+  padding: 0px 12px;
+  cursor: pointer;
+}
+
+.SignUpBtn{
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.15px;
+    cursor: pointer;
+    position: relative;
+    height: 35px;
+    padding: 0px 23px;
+    border: 1px solid rgb(51, 51, 51);
+    background-color: rgb(51, 51, 51);
+    color: rgb(255, 255, 255);
+}
+
+
+/* section nav2  */
+
+.menu2{
+  height: 12vh;
+  border-bottom: 1px solid grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
